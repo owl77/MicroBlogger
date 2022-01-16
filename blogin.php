@@ -26,12 +26,12 @@ input[type="submit"]{
 
 
 
-if($_POST["login"]=="admin" && $_POST["pass"]=="owl123")
+if($_POST["login"]=="admin" && $_POST["pass"]=="mypassword")
 
 {
 
 $_SESSION["auth"]="yes";
-if($_POST["login"]=="owl123"){$_SESSION["login"]="admin";}
+if($_POST["login"]=="mypassword"){$_SESSION["login"]="admin";}
 
 
 echo("<script>window.location.href='bmessenger.php'</script>");     }
