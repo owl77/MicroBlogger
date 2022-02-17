@@ -10,7 +10,7 @@ name="test"
 
 
 sub="s/NAME/${name}/"
-sub2 = "s/BLOGNAME/${blogname}/"
+sub2="s/BLOGNAME/${blogname}/"
 
 sed -i '' $sub NAMEedit.php
 sed -i '' $sub NAMEblog.php
