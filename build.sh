@@ -1,6 +1,12 @@
-blogname="MyBlog"
-name="test"
+# do not forget to change permissions on this file to allow execution !
 
+blogname="My Blog"
+# replace "My Blog" with Blog title
+
+name="test"
+# replace "test" with unique identifier <tag> for blog
+
+#IMPORTANT: you must create a folder in the main directory of the server called <tag> posts
 
 sed -i 's/NAME/${name}/' NAMEedit.php
 sed -i 's/NAME/${name}/' NAMEblog.php
