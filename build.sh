@@ -8,14 +8,18 @@ name="test"
 
 #IMPORTANT: you must create a folder in the main directory of the server called <tag>posts (no spaces)
 
-sed -i 's/NAME/${name}/' NAMEedit.php
-sed -i 's/NAME/${name}/' NAMEblog.php
-sed -i 's/NAME/${name}/' NAMElogin.php
-sed -i 's/NAME/${name}/' NAMEmessenger.php
-sed -i 's/NAME/${name}/' NAMEmessview.php
-sed -i 's/NAME/${name}/' NAMEnew.php
-sed -i 's/BLOGNAME/${blogname}/' NAMEblog.php
-sed -i 's/BLOGNAME/${blogname}/' NAMEmessenger.php
+
+sub="s/NAME/${name}/"
+sub2 = "s/BLOGNAME/${blogname}/"
+
+sed -i '' $sub NAMEedit.php
+sed -i '' $sub NAMEblog.php
+sed -i '' $sub NAMElogin.php
+sed -i '' $sub NAMEmessenger.php
+sed -i '' $sub NAMEmessview.php
+sed -i '' $sub NAMEnew.php
+sed -i '' $sub2 NAMEblog.php
+sed -i '' $sub2 NAMEmessenger.php
 mv NAMEedit.php $name"edit.php"
 mv NAMEblog.php $name"blog.php"
 mv NAMElogin.php $name"login.php"
