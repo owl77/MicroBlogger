@@ -6,7 +6,7 @@ blogname="My Blog"
 name="test"
 # replace "test" with unique identifier <tag> for blog
 
-#IMPORTANT: you must create a folder in the main directory of the server called <tag> posts
+#IMPORTANT: you must create a folder in the main directory of the server called <tag>posts (no spaces)
 
 sed -i 's/NAME/${name}/' NAMEedit.php
 sed -i 's/NAME/${name}/' NAMEblog.php
