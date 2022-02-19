@@ -16,8 +16,8 @@ sed -i '' $sub NAMEmessenger.php
 sed -i '' $sub NAMEmessview.php
 sed -i '' $sub NAMEnew.php
 
-sed -i '' "s/BLOGNAME/My Blog/" NAMEblog.php
-sed -i '' "s/BLOGNAME/My Blog/" NAMEmessenger.php
+sed -i '' "s/BLOGTITLE/My Blog/" NAMEblog.php
+sed -i '' "s/BLOGTITLE/My Blog/" NAMEmessenger.php
 
 #replace "My Blog" with the name of the blog
 
