@@ -168,7 +168,7 @@ echo("<script>window.location.href='NAMElogin.php'</script>");     }
 function getname($title){return explode("#", $title)[0];}
 function gtdate($title){return explode("#", $title)[1];}
 
-function sortFunction( $a, $b ) {
+function sortFunction( $b, $a ) {
       if($a=="." || $a==".."){return -1;}
 if($b=="." || $b==".."){return  1;}
     
