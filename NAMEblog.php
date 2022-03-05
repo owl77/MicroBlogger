@@ -117,7 +117,7 @@ font-family:'Courier New';
       <a href="resources.txt"> <a href="../index.html">New Enlightenment Site</a>
     
      
-        <h1 style="text-align:center;font-size:44px;color: #19648a;">BLOGNAME</h1>
+        <h1 style="text-align:center;font-size:44px;color: #19648a;">BLOGTITLE</h1>
         
         <div style="text-align:center;color:#19648a; background-color: white"><i>    </i></div><br>
            
